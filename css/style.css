@@ -282,6 +282,7 @@ header .Nav {
   padding: 18px 0px;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
+  background-color: #000;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -714,7 +715,7 @@ header.hdrDown .Nav .NavLrft .logoSec a img {
   z-index: -1;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
-  background: url(../images/footer-bg.png) #ffcc0c;
+  background: url(../images/footer-bg.png) green;
   background-attachment: fixed;
   background-repeat: repeat;
   background-size: cover;
@@ -743,7 +744,7 @@ header.hdrDown .Nav .NavLrft .logoSec a img {
   transition: -webkit-transform 0.5s cubic-bezier(0.4, 0, 0, 1);
   transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1);
   transition: transform 0.5s cubic-bezier(0.4, 0, 0, 1), -webkit-transform 0.5s cubic-bezier(0.4, 0, 0, 1);
-  background: url(../images/footer-bg.png) #ffcc0c;
+  background: url(../images/footer-bg.png) green;
   background-attachment: fixed;
   background-repeat: repeat;
   background-size: cover;
@@ -953,7 +954,7 @@ footer {
   display: block;
   width: 100%;
   padding: 55px 0px;
-  background: url("../images/footer-bg.png") #ffcc0c;
+  background: url("../images/footer-bg.png") green;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1948,7 +1949,7 @@ section.AbtSec.AnimateSec.activeAnimte .AbtSecShow .Cl12AbtSec .ImgSecBacAbt:aft
   left: 0px;
   position: absolute;
   content: "";
-  background: black;
+  background:green;
   opacity: 0.7;
 }
 
@@ -4119,9 +4120,10 @@ header.hdrDown_abt .Nav .NavLrft .logoSec a img {
 }
 
 .mahirahomes {
+  margin-top: 120px;
   width: 100%;
-  display: inline-block;
-  background: #ffcc0c;
+  display: inline-flexbox;
+  background: beige;
 }
 
 .mahiinn_wrap {
@@ -8189,7 +8191,7 @@ a.LinkAllSec {
 .mahi_blog {
   width: 100%;
   display: inline-block;
-  background-color: #ffcc0c;
+  background-color: green;
   position: relative;
   padding: 20px;
 }

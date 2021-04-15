@@ -1,16 +1,13 @@
 
 <!DOCTYPE html lang="en">
-<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><<title>
-	Royal Greens
+<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>
+	About us - Royal Green
 </title>
 
-     
-    
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    
 
-    
+     
+  
+    <link href="../css/style.css" rel="stylesheet">
    
     <style>
         .modal1_1{position: fixed;z-index:99999;height: 100%;width: 100%;top: 0;background-color:#fff;filter: alpha(opacity=60);opacity: 1;-moz-opacity: 0.8;}
@@ -98,7 +95,61 @@ filter: invert(1);
    </style> 
 </head>
 <body>
-    
+    <form method="post" action="./about-us" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwMDUyNjYzMjgPZBYCZg9kFgQCAQ9kFhICFg8WAh4HY29udGVudAWVAU1haGlyYSBHcm91cCBpcyBhIG11bHRpLWR5bmFtaWMgYW5kIG11bHRpZmFjZXRlZCBkZXZlbG9wZXIgYmFzZWQgaW4gdGhlIG1pbGxlbm5pdW0gY2l0eSBvZiBHdXJnYW9uLiBLbm93IE1vcmUgIEFib3V0IG1haGlyYSBob21lcy4gVmlzaXQ6IE91ciBXZWJzaXRlZAIXDxYCHwBkZAIhDxYCHwAFH0Fib3V0IHVzIC0gTWFoaXJhIEhvbWVzIEd1cmdhb25kAiIPFgIfAAWVAU1haGlyYSBHcm91cCBpcyBhIG11bHRpLWR5bmFtaWMgYW5kIG11bHRpZmFjZXRlZCBkZXZlbG9wZXIgYmFzZWQgaW4gdGhlIG1pbGxlbm5pdW0gY2l0eSBvZiBHdXJnYW9uLiBLbm93IE1vcmUgIEFib3V0IG1haGlyYSBob21lcy4gVmlzaXQ6IE91ciBXZWJzaXRlZAIkDxYCHwAFH0Fib3V0IHVzIC0gTWFoaXJhIEhvbWVzIEd1cmdhb25kAiUPFgIfAAWVAU1haGlyYSBHcm91cCBpcyBhIG11bHRpLWR5bmFtaWMgYW5kIG11bHRpZmFjZXRlZCBkZXZlbG9wZXIgYmFzZWQgaW4gdGhlIG1pbGxlbm5pdW0gY2l0eSBvZiBHdXJnYW9uLiBLbm93IE1vcmUgIEFib3V0IG1haGlyYSBob21lcy4gVmlzaXQ6IE91ciBXZWJzaXRlZAImDxYCHwAFJGh0dHBzOi8vd3d3Lm1haGlyYWhvbWVzLmNvbS9hYm91dC11c2QCKA8WAh4EaHJlZgUkaHR0cHM6Ly93d3cubWFoaXJhaG9tZXMuY29tL2Fib3V0LXVzZAIpDxYCHwAFJGh0dHBzOi8vd3d3Lm1haGlyYWhvbWVzLmNvbS9hYm91dC11c2QCAw9kFgYCAw9kFgICAQ9kFgJmD2QWAgIFDw9kFgIeB09uQ2xpY2sFInJldHVybiBwYWdlY2hlY2tTdWJzY3JpYmVNYXN0ZXIoKTtkAgQPFgIeC18hSXRlbUNvdW50AgUWCmYPZBYCZg8VAjBhZmZvcmRhYmxlLWhvdXNpbmctcHJvamVjdHMtaW4tc2VjdG9yLTY4LWd1cmdhb24PTUFISVJBIEhPTUVTIDY4ZAIBD2QWAmYPFQIxYWZmb3JkYWJsZS1ob3VzaW5nLXByb2plY3RzLWluLXNlY3Rvci0xMDMtZ3VyZ2FvbhBNQUhJUkEgSE9NRVMgMTAzZAICD2QWAmYPFQItYWZmb3JkYWJsZS1ob3VzaW5nLXByb2plY3RzLXNlY3Rvci05NS1ndXJnYW9uD01BSElSQSBIT01FUyA5NWQCAw9kFgJmDxUCMWFmZm9yZGFibGUtaG91c2luZy1wcm9qZWN0cy1pbi1zZWN0b3ItNjNhLWd1cmdhb24ZTUFISVJBIEhPTUVTIDYzLUEgR3VyZ2FvbmQCBA9kFgJmDxUCGG1haGlyYS1ob21lcy02OC1waGFzZS1paRhNQUhJUkEgSE9NRVMgNjggUEhBU0UgSUlkAgUPZBYCAgEPZBYCZg9kFgQCAQ8QDxYGHg1EYXRhVGV4dEZpZWxkBQtQcm9qZWN0TmFtZR4ORGF0YVZhbHVlRmllbGQFCVByb2plY3RJRB4LXyFEYXRhQm91bmRnZBAVBg5TZWxlY3QgUHJvamNldA9NQUhJUkEgSE9NRVMgOTUYTUFISVJBIEhPTUVTIDY4IFBIQVNFIElJD01BSElSQSBIT01FUyA2OBlNQUhJUkEgSE9NRVMgNjMtQSBHdXJnYW9uEE1BSElSQSBIT01FUyAxMDMVBgEwATQBMwEyATUBMRQrAwZnZ2dnZ2dkZAILDw9kFgIfAgUlcmV0dXJuIHBhZ2VjaGVja1F1aWNraW5xdWlyeU1hc3RlcigpO2RkZ2g5UHmq81i5RqbclCIQTYGFjNLHdJfi0XK6yn8u0q0=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=F8Iih3_l0N5-omK2W00hmXA-WoG_VwUaYqwIMlYICOlj1EYFEYAjW5O0g5-P9T0PPkHB3tIZ82daRxFNPAQhU05VPFD_gsM0EcEW6eRdLis1&amp;t=637454268340000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=ivQwUgdq_0Jx78Ae_jRz_bPHoWOOBGu5G9Fd5DydG9-RCiUsLpZzJuLOlKkut7isUe5hId76XP1TSmI-nuZ5rgL8SdqK1WBO898wkzv0pOrAAkoP20Y8lf-ozDNG61pracYfkXAXcu62nHQF7YUZvO9-v8NxFhDqJxclo-oih5bSfEdp1lSP-rhfusgVSTPp0&amp;t=363be08" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=-Nbe98aZRp_lSxOedtCfLqoe66Dog1AQfSU1FDVJaGWNQoc9WH4_tVYjk5lDrcu-GxHlAqfXmdkRGGvMbZoFw-QMjDpOmoIsFAUrhtv9-cI4_gimCze7qItuJy-Bm4hNCIy49EGRIbROY11N3rulO-9PWV0oULtx7t5kSEM46ESKMz5jfOTtcVohj5mqILI60&amp;t=363be08" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="96F51A67" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAA/9WyNJnHDjZisXSyFbhmqIViCEV60RjfgUm8IH6lw/afwN8mR5sUQ0UTZmNlHqfvMEtzpCj3IzYKU9SpNVPRju/wiWK80FHmLpdEnQbS7iIZRSkHkmQyEt8+krlVjyqf5qaUNtnCrQWTNZCOLLEJL8/hGcnaqeQysbMHmmXzdIzbQibRK9jBWZPMcI1pkp8cJ2nir8eRDSU7xbkhIm61Oqo111z7JiO2uT/nZHAWZKV+nTpMZnbczX0vLtARFbWGWz+lamswJbwsvGu6huMX5ugBA3Ku2dEquXKQp4ZBnwgB9IYsIZ6RGsz+kbHV2tuA1X7yPEJ4KwW35AiygvI72MQjWttY/afvoARbkkkjFArw==" />
+</div>
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$sc1', 'form1', ['tctl00$UpdatePanel1Newsletter','UpdatePanel1Newsletter','tctl00$UpdatePanelQuickinquiry','UpdatePanelQuickinquiry'], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    <div id="UpdateProgress2" style="display:none;">
+	
+            <div class="modal1_1">
+                <div class="center1_1">
+                   <img src="/asset/images/loader.gif" alt="Mahira Homes, Please wait..." width="300"/><br />
+                </div>
+            </div>
+        
+</div>
     <div>
         <header>
             <div class="mobile-top-header">
@@ -118,8 +169,9 @@ filter: invert(1);
                     </div>
                     <div class="NavRight">
                         <ul>
-                            <li> <a href="./pages/aboutus.html"> About </a> </li>
-                            <li> <a href="./pages/project.html"> Projects </a> </li>
+                            <li> <a href="/about-us"> About </a> </li>
+                            <li> <a href="/project"> Projects </a> </li>
+                            <li> <a href="/construction-updates">Construction Updates</a></li>
                             <li> <a class="EnqPhone" href="javascript:void(0);" data-tbicn="1"> Quick inquiry </a> </li>
                             <li> <a href="https://api.whatsapp.com/send?phone=918000080000&amp;text=Hello&nbsp;Team&nbsp;Mahira&nbsp;Homes.&nbsp;Could&nbsp;you&nbsp;please&nbsp;connect&nbsp;with&nbsp;me?"><img   src="/asset/images/whatsapp-icon.png" alt="Mahira Homes Gurgaon whatsapp">  : <b>80000 80000</b> </a> </li>
                         </ul>
@@ -131,7 +183,7 @@ filter: invert(1);
             </div>
          </header>
         <!-- MenuNav -->
-        <!-- <div class="MnuSecShow"> <span class="PopBxCls MnuClseSec"></span>
+        <div class="MnuSecShow"> <span class="PopBxCls MnuClseSec"></span>
             <div class="MnSecAllbgMn">
                 <ul>
                     <li> <a href="/"> Home </a> </li>
@@ -140,7 +192,7 @@ filter: invert(1);
                     <li> <a href="/construction-updates">Construction Updates</a></li>
                     <li> <a href="/contact-us"> Contact </a> </li>
                 </ul> <span class="borderSec"></span>
-                 <div class="ScndMnSec">
+                <div class="ScndMnSec">
                     <ul class="MnuSecLn">
                         
                         <li> <a href="/blog"> Blog </a> </li>
@@ -155,279 +207,358 @@ filter: invert(1);
 						<li><a href="https://api.whatsapp.com/send?phone=918000080000&amp;text=Hello&nbsp;Team&nbsp;Mahira&nbsp;Homes.&nbsp;Could&nbsp;you&nbsp;please&nbsp;connect&nbsp;with&nbsp;me?"> <span ><img alt="Mahira Homes" src="/asset/images/whatsapp-icon.png"> </span> </a></li>
                     </ul>
                 </div>
-            </div> 
-        </div> -->
+            </div>
+        </div>
         <!-- Menu End  -->
         
-
-<section class="hm-bannerSec">
-    <div class="innerBaner-wrapper">
-        <div class="banImgBx">
-            <video autoplay="" loop="" muted="" id="videoId">
-                <source src="video/video.mp4" type="video/mp4"> </video>
-        </div>
-        <div class="banTextBx">
-            <div class="banText" data-aos="fade-left">
-                <div class="type-js">
-                    <h1 class="text-js"> Affordable housing project in Gurgaon </h1> 
-                </div>
-                <span class="text-js"> Enroute to Mahira! </span> 
-                <h3>Luxury Living in affordable Price </h3> </div>
-
-            <div class="arrow_go_dwn arrow_go_dwn1 bounce_ar nxtSecAct" data-nextsec="nextSec1"> <span class="ArrowSecTop"></span> </div>
-        </div>
-    </div>
-</section>
-<!-- About Us -->
-<section class="AbtSec AnimateSec">
-    <div class="AbtSecShow" id="nextSec1">
-        <div class="container">
-            <div class="TitleAbtSec" style="width: 918px;">
-                <h2>Your New Address to Uber-Chic Luxury and Futuristic Homes at Unbelievable Prices!</h2>
-            </div>
-            <div class="Cl12AbtSec">
-                <div class="Abtsec6">
-                    <div class="ImgSecBacAbt">
-                        <div class="BckImgSecAbt">
-                            <div class="TextSecAbt"> <small> One Stop Destination for</small>   
-                                <h5>Luxury</h5>
-                                <h6>and Class</h6>
-                            </div>
-                        </div>
-                        <!-- <div class="imgTopSec"> <img src="asset/images/aboutSec.jpg" alt="Affordable Housing Projects in Gurgaon"> </div> -->
-                    </div>
-                </div>
-                <div class="Abtsec6">
-                    <div class="HdSecAbt">
-                        <h3>About <br>Mahira Homes </h3>
-                        <p>Mahira Group is a multi-dynamic and multifaceted developer based in the millennium city of Gurgaon. Mahira Group has been handling several businesses like Real Estate, Mining, Construction and Education. The developer has forayed into businesses like Hospitality, Filing Stations, and Food Chain over the past ten years.</p><br />
-                        
-                         <div class='RdBtnSec'>
-                            <a href='/about-us'> Read More <span class="button-move"> </span> </a>
-                         </div>
-                    </div>
+<section class="scthgt">
+    <div class="mahirahomes">
+        <div class="container_abt">
+            <div class="mahiinn_wrap">
+                <div class="lfetgif"> <img class="imgOver" src="asset/images/about/MM.gif"> </div>
+                <div class="info_mahir">
+                    <div class="abttltsec">
+                        <h2>Mahira Homes</h2> </div>
+                    <p>Mahira Group is a multi-dynamic and multifaceted developer based in the millennium city of Gurgaon. Mahira Group has been handling several businesses like Real Estate, Mining, Construction and Education. The developer has forayed into businesses like Hospitality, Filing Stations, and Food Chain over the past ten years.</p><br />
+                        <p>With a humble beginning in the construction industry, Mahira Group witnessed modest growth but it has reached its current state because of our focus on commitment, integrity, value for money, and dedication. We have built confidence and trust with persistent hard work. We started with individual housing projects and went on to launch leading mega-million projects with superior excellence. </p><br />
+                        <p>We believe in core human values which never go out of trend. We never lose track of keeping a human touch and relationships with clients, vendors, customers and community, in our pursuit of success. </p>
+                    <p>A multifaceted and multi dynamic group based out of the millennium city Gurugram, Haryana; Mahira is holding company to other diverse businesses, starting with Real Estate, Construction, Education and Mining, the group has forayed into other businesses like Filing Stations, Food Chain and Hospitality over past decade of its existence. Mahira Group resonates Competitiveness, Energy and Resilience and holds them as its core values. Spread across northern India, across business, Mahira Group under dynamic leadership of Mr. Sikandar Singh, is successfully engendering its entrepreneurial synergies into constructive forays and poised to become a leading conglomerate.</p>
+                    <p>Mahira Group ventured into the construction industry with a modest start but grew to its current stature entirely due to our focus on core values of integrity, commitment, dedication and delivering value to each client. Trust and confidence building take a long time to create and persistent hard work to achieve but in the end our efforts have borne fruit. Starting with small individual housing contracts, we went on to larger projects and today, we handle mega-million projects with fluid mastery.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- Project -->
-<section class="ProJectSec AnimateSec">
-    <div class="ProJctSecBack">
-        
-        
-                <div class="BacImgSecPro" data-dwndata="tab-2" style='display: block;'><img class="bg" src="/MahiraHomesBackEndImg/ProjectImages/mahira-homes-68-mahirahomes-banner.jpg" alt="affordable-housing-projects-in-sector-68-gurgaon" title="MAHIRA HOMES 68"></div>
+<section>
+    <div class="abt_czaWrap">
+        <div class="inn_czaWrp"> <img class="imgOver" src="asset/images/about/abut_scbk.png">
+            <div class="container_abt">
+                <div class="InnScrllWrp OverVisSec mCustomScrollbar">
+                    <p>Mahira Group specializes in general construction projects. We are at ease handling individual bungalows and just as comfortable when we take on huge housing projects involving residential complex. Operating mainly in North India and particularly around Gurgaon & Delhi, we have taken on projects involving design, planning, construction of educational institutions and hotels on a turnkey basis. Our service starts with concept and goes on to planning, obtaining permissions, coordinating construction, managing finishing and interior design and finally handing over a project in its finished form to the owner. Quality, excellence and timely completion of projects have gained us an enviable reputation and brought us prestigious projects to date. While credit goes to our founder, credit for our success also goes to our human resources whose perseverance, hard work and commitment have proved invaluable. In our way we cherish these efforts, recognize and reward them. On the other hand, we are just as grateful to our clients.</p>
+                    <p>Success so far is only a catalyst for our future planned expansion and growth. At the same time, we are conscious of our responsibility to the environment and community and, in our way, do our best for social upliftment and a greener, cleaner environment. We believe in basic human values that will never go out of fashion. That is why, in our pursuit of success and profits, we never lose sight of maintaining a human touch and valuing relationships with clients, customers, vendors and community.</p>
+                    <p>Mahira Group of companies is the flagship Company of the Group and is engaged in providing various services to institutions, corporates, and individuals since 1995. The Company is a leading group and presently has assets around 100 crores under its management. The Company has successfully positioned itself as a trusted brand to its customers for with its customer centric approach and innovative solutions. Mahira Group is anchored by an extraordinary force of over 500 employees and the Group always stands for quality, efficiency and an ethical approach towards its commitments.</p>                 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="abt_czaWrap cmn_gp">
+        <div class="container_abt">
+            <div class="abttltsec">
+                <h2> Message from Chairman & Managing Director </h2> 
             
-                <div class="BacImgSecPro" data-dwndata="tab-1" ><img class="bg" src="/MahiraHomesBackEndImg/ProjectImages/mahira-homes-103-mahirahomes-banner.jpg" alt="affordable-housing-projects-in-sector-103-gurgaon" title="MAHIRA HOMES 103"></div>
             
-        <div class="container">
-            <div class="Pro12Sec">
-                <div class="Pro6Sec">
-                    <div class="TabProSec">
-                        <div class="AbtNavSec">
-                            <ul>
-                                
-                                        <li class="" data-dwntb="tab-2"> MAHIRA HOMES 68 </li>
-                                    
-                                        <li class="ActiveNavSec" data-dwntb="tab-1"> MAHIRA HOMES 103 </li>
-                                    
-                            </ul>
+            
+                <div class="Inn_0nnPopup team-row" >
+        
+                    <div class="wrpr_abtimg team-left"> <img src="asset/images/about/sikandar.png"> </div>
+                    <div class="wrpr_abtinfo team-right">
+                        <div class="mid_txt">
+                            <h3>SIKANDAR SINGH</h3> <p>Chairman & Managing Director</p> </div>
+            <p> When the dream doesn’t let you rest even when the sky turns dark. Then you are not just dreaming, you are chasing a vision. Dream is the future; to see the future you need a vision. Ordinary people lack the ability to visualize. one who has the ability to visualize, can create a masterpiece out of a barren land. </p>
+            <p>People are skilled these days, they go through years of education and experience, to help visionaries create extraordinary things. Mahira Group, with its expertise and years of experience in the real estate field, is enthusiastic to offer its visionary customers a luxurious life at an affordable price.</p>
+            <p>We embarked our journey in 2018, and within a period of 3 years, we’ve come up with 4 mesmerizing affordable housing projects. The happiness of our gratified customers reflects the charisma of the company. We have profound faith in the belief that one can go to some extent but not far enough without focus on principles and values.</p>
+            <p>Under the influence of COVID-19, the world economy halted. However, we emerged unscathed from this pandemic and successfully launched a couple of projects, with exquisite design, to serve our beloved family of customers.</p>
+            <p>As an organization, we are perfectly positioned to chart the next phase in our growth story even admitting the current uncertainty, with an unwavering support from our entire team. Together as a family, we will counter every test that may come our direction like we have constantly confronted them effectively with our operational effectiveness and best administration of the human asset. </p>
+        
+                      
+                    </div>
+        
+                  </div>
+                  <h2> Board of Directors</h2> 
+                    <div class="Inn_0nnPopup team-row">
+                  
+                      <div class="wrpr_abtimg team-left"> <img src="asset/images/about/dummy.jpg"> </div>
+                  <div class="wrpr_abtinfo team-right">
+                      <div class="mid_txt">
+                          <h3>Mr. Alakh Niranjan </h3>
+                          <p>Director</p>
+                      </div>
+                     <p>Highly inspiring and focused Mr. Alakh Niranjan not only develop and execute the company’s business strategy to achieve board and shareholder goals but also provide strategic advice to the board and chairman to accurately understand the market and the future of the company. He also extends his expertise to prepare and implement a comprehensive business plan to drive costs planning and achieving effective operations and market development activities to ensure that company policies and legal guidelines are communicated from the top down and always adhered to by the company. </p> 
+                      <p>Mr. Niranjan is one of the key pillar in Mahira Group’s success and sustainability and he is acting like a one, from Customers to vendor’s, employees to shareholders he is taking all the responsibilities and managing every one efficiently with his experience and expertise. He is undoubtedly the one sailor with wisdom who can guide the ship to move forward with many victories.  </p>
+        
+                  </div>
+              </div>
+        
+                  
+                    <div class="Inn_0nnPopup team-row">
+                  
+                      <div class="wrpr_abtimg team-left"> <img src="asset/images/about/dummy.jpg"> </div>
+                      <div class="wrpr_abtinfo team-right">
+                          <div class="mid_txt">
+                              <h3>Mr. Prince Kumar Gupta </h3>
+                              <p>Director</p>
+                          </div>
+                         <p>Mr. Prince Kumar is managing his role in organization effectively with his strong analytical and troubleshooting abilities, As the Director of Mahira Group, Mr. Gupta plays the crucial role in formulation and implementation of company’s forward plans. His enthusiasm and business sense to carry out successful business operations even in adverse market conditions establishes him as a true leader. He is truly efficient to heads a team of highly ambitious industry experts with an aim to offer a customised facility and to every customer in his personal capacity. 
+                      </p> 
+                         
+          
+                      </div>
+                  </div>
+        
+                      
+               
+                  <h2> OUR TEAM</h2>
+                  <div class="Inn_0nnPopup team-row">
+                
+                      <div class="wrpr_abtimg team-left"> <img src="asset/images/about/dummy.jpg"> </div>
+                <div class="wrpr_abtinfo team-right">
+                    <div class="mid_txt">
+                        <h3>A. S. Khurana  </h3>
+                        <p>President  Project & Planning
+                          </p>
+                    </div>
+        
+                  <p>Mr. A.S.Khurana is efficiently leading Mahira Group’s project and planning department with his  expertise over 3 decades ,He has years of experience in Project Management, Contracts Management, Procurement, Execution of Civil Work, Procurement, Site Management, Planning and Designs, Contracts and Arbitration etc. He also possesses excellent command over in execution and spearheading construction projects involving method engineering, development, resource planning with a flair for adopting modern construction methodologies in compliance with quality standards.</p>
+                  <p>His extensive approach towards planning and designs of construction projects involving architectural and structural planning and compliance management with quality assurance is of great advantage for the company. </p>
+                  </p>He is not only extending his technical support to Mahira group but also acts as key communicator with problem solving, analytical and negotiation skills for the overall growth of the company.</p>
+        
+                 
+        
+                </div>
+            </div>
+        
+                
+                  <div class="Inn_0nnPopup team-row">
+                
+                      <div class="wrpr_abtimg team-left"> <img src="asset/images/about/dummy.jpg"> </div>
+                    <div class="wrpr_abtinfo team-right">
+                        <div class="mid_txt">
+                            <h3>Rajesh Rathee</h3>
+                            <p>General Manager, Civil & Construction
+                              </p>
                         </div>
-                        
-                                <div class="AbtCntSec" data-dwndata="tab-2" style='display: block;'>
-                                    <div class="AbtSecCnt">
-                                        <p>Mahira Homes has come up with another affordable and much awaited residential project, Mahira Homes in Sector 68 Gurgaon, in the proximity to Southern Peripheral Road (SPR) and Sohna Road. Mahira Group offers affordable homes under 2013’s Haryana Affordable Housing scheme. </p>
-                                        <div class="WrtShowSecAbt">
-                                            <div class="Flts">
-                                                <p>1500</p>
-                                                <p>Flats</p>
-                                            </div>
-                                            <div class="Flts">
-                                                <p>9.96875</p>
-                                                <p>Acres</p>
-                                            </div>
-                                            <div class="Flts">
-                                                <p> Wide</p>
-                                                <p>Roads</p>
-                                            </div>
-                                            <div class="Flts">
-                                                <p>3 Side</p>
-                                                <p>Open</p>
-                                            </div>
-                                        </div>
-                                        <p>RERA REGISTRATION NO : HRERA -15 OF 2019</p>
-                                        <p>License No : 31 of 2019 dated 01.03.2019</p>
-                                        <p>BR MEMO No : ZP-1293/AD(RA)/2019/8660</p>
-                                        
-                                        <div class="BtnSecNrm">
-                                            <a href="/affordable-housing-projects-in-sector-68-gurgaon" class="BtnSecAbt"> <span> Explore </span> </a>
-                                        </div>
-
-                                        <div class="BtnSecNrm">
-                                            <a href="/project" class="BtnSecAbt"> <span> View all </span> </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            
-                                <div class="AbtCntSec" data-dwndata="tab-1" >
-                                    <div class="AbtSecCnt">
-                                        <p>Mahira Homes Sector 103 Gurgaon is the leading <a href="/">affordable housing project in Gurgaon</a> based in sector 103, Gurgaon, in the proximity to 150m wide Dwarka Expressway. This project is stretched over 5.4037 acres of landscapes covered by lush greens, malls, residential complexes, and all social amenities. </p>
-                                        <div class="WrtShowSecAbt">
-                                            <div class="Flts">
-                                                <p>700</p>
-                                                <p>Flats</p>
-                                            </div>
-                                            <div class="Flts">
-                                                <p>5.4037</p>
-                                                <p>Acres</p>
-                                            </div>
-                                            <div class="Flts">
-                                                <p>Wide</p>
-                                                <p>Roads</p>
-                                            </div>
-                                            <div class="Flts">
-                                                <p>3 Side</p>
-                                                <p>Open</p>
-                                            </div>
-                                        </div>
-                                        <p>RERA REGISTRATION NO : HRERA-2018/1403 /299</p>
-                                        <p>License No : 106 of 2017 dated 22.12.2017</p>
-                                        <p>BR MEMO No : ZP-1202/AD(RA)/2018/6797</p>
-                                        
-                                        <div class="BtnSecNrm">
-                                            <a href="/affordable-housing-projects-in-sector-103-gurgaon" class="BtnSecAbt"> <span> Explore </span> </a>
-                                        </div>
-
-                                        <div class="BtnSecNrm">
-                                            <a href="/project" class="BtnSecAbt"> <span> View all </span> </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            
+                       <p> Mr. Rajesh Rathee is Civil Engineer by profession having experience in high rise building both residential and commercial, an M-Tech from M.D. University and A contract law degree holder from Harvard University. He has rich experience of more than 20 years in the fields of Construction/Real Estate and integrated management of construction activities.</p>
+                      <p>Starting his professional career as a Civil Engineer, he has served many reputed companies like India Bulls, BPTP, Anant Raj , Era landmarks and many more . Mr. Rathee has wide experience in the fields of strategic planning, project and site management, vendor and contract administrator, quality management, external resource management, Business excellence & liasoning , project coordination, material and manpower management ,costing and budgeting etc. He is highly professional, hardworking and above all he is a team player who is efficiently handling the team of engineers and project manager from the beginning of his association with Mahira Group.</p> 
+        
+                      
+                       
+        
                     </div>
                 </div>
-                <div class="Pro6Sec">
+        
+                <div class="Inn_0nnPopup team-row">
+                
+                  <div class="wrpr_abtimg team-left"> <img src="asset/images/about/dummy.jpg"> </div>
+                  <div class="wrpr_abtinfo team-right">
+                      <div class="mid_txt">
+                          <h3>Aditya Beri </h3>
+                          <p>AGM  Purchase</p>
+                      </div>
+                     <p> Comming soon..</p>
+                      
+        
+                  </div>
+              </div>
+        
+              <div class="Inn_0nnPopup team-row">
+                
+                  <div class="wrpr_abtimg team-left"> <img src="asset/images/about/dummy.jpg"> </div>
+                  <div class="wrpr_abtinfo team-right">
+                      <div class="mid_txt">
+                          <h3>Ashok Punnia
+                          </h3>
+                          <p>AGM , Land & Liasoning</p>
+                      </div>
+                     <p> Comming soon..</p>
+                      
+        
+                  </div>
+              </div>
+            
+              <div class="Inn_0nnPopup team-row">
+                
+                <div class="wrpr_abtimg team-left"> <img src="asset/images/about/dummy.jpg"> </div>
+                <div class="wrpr_abtinfo team-right">
+                    <div class="mid_txt">
+                        <h3>Rajeev Kumar
+                        </h3>
+                        <p>Sr. Architect Civil & Construction 
+                            </p>
+                    </div>
+                   <p>Mr.Rajeev Kumar is heading the  structural designing part of the company from the beginning with his 13 years of reach experience in  architectural designing and project management which include multistoried Group Housing, Commercial, Institutional and Town Planning projects. </p>
+                    <p>He, along with his team has won several competition projects and is empanelled and working for various Urban Development Authorities, Housing Boards in various states such as DDF Consultants Pvt. Ltd.Space Combine’as Project Architect, Bose Brothers Architects as a Junior Architect and Fourth Dimensions etc. </p>
+                        <p> Apart from this he has handled some overseas projects as well which includes:</p>
+                    <ul>
+                        <li>Angelica at Jumeirah village, Dubai Type – residential cum commercial mid-rise building.</li>
+                        <li> Business Bay Tower, Dubai, Type – G+20 storied commercial cum residential building</li>
+                        <li>The Mystica at Water Front, Dubai , Type – G+16 storied commercial cum residential building</li>
+                        <li> Magnolia at Jumeirah village, Dubai ,Type – mid-rise residential</li>
+                     </ul>
+                   <p> He is supremely talented and his focus and timely delivery of reports and presentations is his USP. </p>
                     
-                            <input type="hidden" name="ctl00$ContentPlaceHolder1$RptrProjcetVideo$ctl00$hndProjectID" id="ContentPlaceHolder1_RptrProjcetVideo_hndProjectID_0" value="2" />
-                            <div class="VdeDsyNne" data-dwndata="tab-2" style='display: block;'>
-                                
-                                        <div class="video-btn VdeIfrme video-btn1" data-ifrm='https://www.youtube.com/embed/tZrDdvKVDGQ?autoplay=0'> <span class="plyIcon"></span> </div>
-                                    
-                            </div>                               
-                        
-                            <input type="hidden" name="ctl00$ContentPlaceHolder1$RptrProjcetVideo$ctl01$hndProjectID" id="ContentPlaceHolder1_RptrProjcetVideo_hndProjectID_1" value="1" />
-                            <div class="VdeDsyNne" data-dwndata="tab-1" >
-                                
-                                        <div class="video-btn VdeIfrme video-btn1" data-ifrm='https://www.youtube.com/embed/hHBZ8kIrN6Y?autoplay=0'> <span class="plyIcon"></span> </div>
-                                    
-                            </div>                               
-                        
+                    
+      
                 </div>
             </div>
-        </div>
-        <div class="RtTextSec">
-            <h3>Projects</h3>
-        </div>
-    </div>
-</section>
-<section class="TestMnAntSec AnimateSec">
-    <div class="TstmonialSec">
-        <div class="container">
-            <div class="TestmnxtSec">
-                <h4> Customer Says </h4>
-                <div class="TestMnSlider owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="ColTestSec">
-                            <p> Mahira Homes executives are very good in their job. They met us twice within a week and helped us in finalizing the deal of flat at Mahirahomes 68. They are quite knowledgeable & efficient. The process was quite fast. We are very happy in liaising with them & we appreciate their work. </p>
-                            <div class="DstName">
-                                <p><b> Rakesh Kumar, Gurgaon </b></p>
-                            </div>
-                        </div>
+
+
+            <div class="Inn_0nnPopup team-row">
+                
+                <div class="wrpr_abtimg team-left"> <img src="asset/images/about/dummy.jpg"> </div>
+                <div class="wrpr_abtinfo team-right">
+                    <div class="mid_txt">
+                        <h3>Abhishek Verma
+
+                        </h3>
+                        <p>Sales Head
+                            Sales & Marketing 
+                            </p>
                     </div>
-                    <div class="item">
-                        <div class="ColTestSec">
-                            <p> Buying a flat is a difficult thing in Gurgaon. Mahirahomes made it very easy for us to select and buy a flat as per our requirements. They assisted us very well, provided us a luxury flat in our budget. We truly appreciate their effort in helping us throughout the process. Thank you Mahirahomes for the assistance you offer us in purchasing our dream home. </p>
-                            <div class="DstName">
-                                <p><b> Mrs & Mr.Vinay Kumar,Sonipat </b></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="ColTestSec">
-                            <p> Mahirahomes staff delivered on their promise right from the beginning. They efficiently processed my paperwork and got me the exact location and floor of my preference. </p>
-                            <div class="DstName">
-                                <p><b> Mr.Mohan Agarwal, Haryana </b></p>
-                            </div>
-                        </div>
-                    </div>
+                   <p> Mr. Abhishek Verma a Business Administration Master Graduate in Marketing & Finance has a more than 13 years of broad and rich experience in direct sales, marketing operations, business development, wealth management, project conceptualizing, Innovative strategist across the Real Estate and Banking sector. Previously he has serve for companies like HDFC Bank, Yes bank, Dhanlaxmi Bank, Indusind bank etc., He has managed a huge portfolio over these years. </p>
+
+                   <p> In Mahira Mr. Verma is solely handling all the business communication and maintain trust with shareholders, business partners and authorities. He is Monitoring the company’s financial performance, investments and other business activities. Delegate responsibilities and monitor the work of executives, providing guidance and motivation to maximize productivity. Read all of the reports from lower-ranking executives to reward performance, prevent problems, and solve problems. Act as a public speaker and public relations representative for a company to enhance its image. Analyse problematic situations and events and offer solutions to ensure company survival and growth. </p>
+                    
+                    
+      
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-<section class="FrmSecFnd AnimateSec">
-    <div class="FndDrmSec">
-        <div class="container">
-            <div class="CntFrmSecDrm">
-                <div class="CntFrmSecDrm6"> <img src="asset/images/dremSecimg.jpg" alt="Gurgaon Affordable Housing"> </div>
-                <div class="CntFrmSecDrm6">
-                    <div class="titleCntFrm">
-                         <h5>Find Your Dream Home</h5> </div>
-                    <div class="FrmSecHmpge">
-                        <!-- <div class="from-grp">
-                            <div id="ContentPlaceHolder1_PanelDreamHomeinquiry" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;ContentPlaceHolder1_lnkSubmitButtom&#39;)">
-	
-                                <div id="ContentPlaceHolder1_UpdatePanelQuickinquiry">
-		
-                                        <fieldset>
-                                            <input name="ctl00$ContentPlaceHolder1$txtQuickEnquiryName" type="text" id="ContentPlaceHolder1_txtQuickEnquiryName" class="form-input border-bottom" oncopy="return false" onpaste="return false" oncut="return false" autocomplete="off" />
-                                            <label class="label-wrap">Name</label> <span class="border-bottom-animation left"></span> </fieldset>
-                                        <fieldset>
-                                            <input name="ctl00$ContentPlaceHolder1$txtQuickEnquiryPhone" type="text" maxlength="10" id="ContentPlaceHolder1_txtQuickEnquiryPhone" class="form-input border-bottom" oncopy="return false" onpaste="return false" oncut="return false" autocomplete="off" onkeypress="return numeralsOnly(event)" pattern="[0-9]*" inputmode="numeric" />
-                                            <label class="label-wrap"> Phone </label> <span class="border-bottom-animation left"></span> </fieldset>
-                                        <fieldset>
-                                            <input name="ctl00$ContentPlaceHolder1$txtQuickEnquiryEmail" type="text" id="ContentPlaceHolder1_txtQuickEnquiryEmail" class="form-input border-bottom" oncopy="return false" onpaste="return false" oncut="return false" autocomplete="off" />
-                                            <label class="label-wrap"> Email </label> <span class="border-bottom-animation left"></span> </fieldset>
-                                        <fieldset>
-                                            <textarea name="ctl00$ContentPlaceHolder1$textarea1" id="ContentPlaceHolder1_textarea1" class="form-input border-bottom"></textarea>
-                                            <label class="label-wrap"> Message </label> <span class="border-bottom-animation left"></span> </fieldset>
-                                        <div class="ArrowBtnSec">
-                                            <a onclick="return pagecheckDreamHomeinquiryMaster();" id="ContentPlaceHolder1_lnkSubmitButtom" class="ArwBtnSec" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$lnkSubmitButtom&#39;,&#39;&#39;)">Submit <span class="button-move"> </span></a>
-                                            
-                                        </div>
-                                    
-	</div>
-                                <div id="ContentPlaceHolder1_UpdateProgressQuickinquiry" class="progress_aeodc" style="display:none;">
-		
-                                    <span class="ibrandoxWeb31 ibrandoxWeb32">Please Wait...</span>
-                                
-	</div>
-                            
-</div>
-                        </div> -->
+
+            <div class="Inn_0nnPopup team-row">
+                
+                <div class="wrpr_abtimg team-left"> <img src="asset/images/about/dummy.jpg"> </div>
+                <div class="wrpr_abtinfo team-right">
+                    <div class="mid_txt">
+                        <h3>Sachin Sharma
+
+                        </h3>
+                        <p>General Manager
+                            Banking & Finance
+                            </p>
                     </div>
+                   <p> Mr. Sachin Sharma, a Master graduate in Marketing and Finance from MIET with more than 10 years of experience across diverse industries such as Domestic and International Financial Market, Insurance, Mutual Funds & Mortgages, banking sales and real estate management etc. He is very specific about his goals and targets as a result of which he plays a crucial role in the business’s income generation strategy and he serves to maximize consumer retention and the acquisition of new consumers, therefore, enabling the business to achieve its consumer base targets.</p>
+ 
+                   <p> His out of the box thinking and people management skills is beneficial to enhance the productivity and boosting performances and simultaneously cutting down on cost, time, energy and resources. Result delivery within the budget and departmental cost cutting is one of his key skills for which he has awarded as a best employee of the year for the year 2019 within the company. </p>
+                    
+                    
+      
                 </div>
+            </div>
+
+            <div class="Inn_0nnPopup team-row">
+                
+                <div class="wrpr_abtimg team-left"> <img src="asset/images/about/dummy.jpg"> </div>
+                <div class="wrpr_abtinfo team-right">
+                    <div class="mid_txt">
+                        <h3>Ritu Rawat
+
+                        </h3>
+                        <p>AGM
+                            Admin & HR
+                            </p>
+                    </div>
+                   <p>Ms. Ritu Rawat is a qualified HR Professional, having more than 8 years of in-depth rich experience in Human Resource & administrative function in many reputed Organizations such as hospitality, IT and Infrastructure. Her people management abilities and negotiation skills are truly commendable. She has extensive HR experience in designing budgets, applying company policies and managing internal HR systems. She has successfully implemented Human Resources Management software for smooth payroll and PMS implementation within the company. </p> 
+                   <p> She has executed many CSR activities on behalf of Mahira Group in and around Delhi NCR region. Her technical proficiency and interpersonal relationship skills with people make her irreplaceable for the company. </p>
+                    
+                    
+      
+                </div>
+            </div>
+
+           
+            
+            
+            
+            
+            </div>
+			
+			
+            
+        </div>
+
+      
+			
+			
+            <div class="team_lrdsp owl-carousel owl-theme">
+				
+               
             </div>
         </div>
     </div>
+    <div class="onnPopup">
+        <div class="Inn_0nnPopup" id="tm1">
+            <span class="PopBxCls"></span>
+            <div class="wrpr_abtimg"> <img src="asset/images/about/sikandar.png"> </div>
+            <div class="wrpr_abtinfo OverVisSec mCustomScrollbar">
+                <div class="mid_txt">
+                    <h3>SIKANDAR SINGH</h3> <p>Chairman & Managing Director</p> </div>
+                <p>His approach towards customers, sellers, contractors and employees promising the best and delivering it in time gave him a solid reputation. Visionary to the core and foreseeing the tremendous growth that would take place in and around Delhi, initiated plans to make Mahira Group a full-fledged, full-service building construction company with engineers, architects, structural engineers, chartered accountants and management experts on the team to give it a professional avatar. His decision proved right. Today Mahira Group reputation is built in solid concrete and we have multi-million valued projects in hand, a proof of success.</p>
+                <p>Mr Sikandar Singh has joined the management of the company, equipped with modern education and global exposure, he has infused Mahira Group with new dynamism, energy and vision. Expectations run high and Mr Sikandar Singh's vision and support of a professional team will propel the company to the pinnacle of success.</p>
+            </div>
+        </div>
+        <div class="Inn_0nnPopup" id="tm2">
+             <span class="PopBxCls"></span>
+            <div class="wrpr_abtimg"> <img src="asset/images/about/team2.png"> </div>
+            <div class="wrpr_abtinfo OverVisSec mCustomScrollbar">
+                <div class="mid_txt">
+                    <h3>VIKAS CHHOKER</h3>
+                    <p>CEO</p>
+                </div>
+                <p>Mr. Vikas Chhoker is the younger brother of Mr. Sikandar Singh and the CEO of Mahira Group. He is a Corporate Trainer & Entrepreneur. He is a young entrepreneur & technocrat, with his innovative & creative ideas he has always achieved whatever he has worked on. He is a Management Graduate. His positive approach towards learning something new has helped him learning many things in his life. With his influencing personality he has motivated & inspired many students to achieve their goals.</p>
+            </div>
+        </div>
+        
+    </div>
 </section>
-<div class="pop_up_vdo1 ">
-    <div class="vdo_onply1 vdo_onply_ad1">
-        <div class="cls_vdo1 ClseIfrmSec"> <span class="PopBxClsVde"></span> </div>
-        <iframe id="iframe1" class="TstIfrmeSec iframecls" allow="autoplay;" src="https://www.youtube.com/embed/hHBZ8kIrN6Y?autoplay=0"></iframe>
+<section>
+    <div class="abt_czaWrap cmn_gp">
+        <div class="container_abt">
+            <div class="vis_wrapMain">
+                <div class="visn_misn_Wrp">
+                    <ul>
+                        <li class="abttltsec active_misv" data_mis="visMis1">
+                            <h2>Vision </h2></li>
+                        <li class="abttltsec" data_mis="visMis2">
+                            <h2> Mission</h2></li>
+                    </ul>
+                </div>
+                <div class="cont_para active_misv" id="visMis1">
+                    <p>If the founder’s achievement is akin to laying a foundation stone, our vision is to build a skyscraper on it and realize our founder’s vision to make Mahira Group a household, trusted name in the construction industry.</p>
+                </div>
+                <div class="cont_para" id="visMis2">
+                    <p>In a milieu where construction companies are innumerable, we aim to associate the name of Mahira Group with reliability, trustworthiness, fair dealings and punctuality; a name that generates confidence and inspires trust: that is our mission.</p>
+                  
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-<!-- <div class="modal1_1">
-    <div class="center1_1">
-        <img src="/asset/images/loader.gif" alt="Mahira Homes, Please wait..." width="300"/><br />
+</section>
+<section>
+    <div class="abt_czaWrap cmn_gp">
+        <div class="inn_czaWrp dwn_in"> <img class="imgOver" src="asset/images/project-list/bannerimglst.jpg">
+            <div class="container_abt">
+                <div class="InnScrllWrp OverVisSec mCustomScrollbar">
+                    <div class="abttltsec"> <h2>Businesses</h2> </div>
+                    <div class="innbusn">
+                        <p>Spread across Northern India, with real estate projects in and around Delhi NCR region. </p>
+                        <h3>Real estates</h3>
+                        <p>The principal business under the umbrella Mahira, the group ventured into the construction industry with a modest start but grew to its current stature entirely due to our focus on core values of integrity, commitment, dedication and delivering value to each client. Trust and confidence building take a long time to create and persistent hard work to achieve but in the end our efforts have borne fruit. Starting with small individual housing contracts, we went on to larger projects and today, we handle mega-million projects with fluid mastery.</p>
+                        <h3>Mahira homes, Sector 68, GURGAON </h3>
+                            <p>As a pilot project for Mahira Group, Mahira Homes is an affordable housing project in sector 68, with well planned residential complex with all infrastructure, roads, internal gardens, lighting, water supply and security. Besides providing a community atmosphere, common facilities and an upmarket feel, housing in our project also gives plenty of privacy and an impression of open, airy spaces.</p>
+                        <ul>
+                            <li>Filling stations</li>
+                            <li>Mines</li>
+                            <li>Mega filing stations</li>
+                            <li>Constructions</li>
+                            <li>Education</li>
+                            <li>Hospitality</li>
+                        </ul>
+                        <p>We are active in the entire Delhi NCR region and have built a number of residential projects. Our services range from design, project consultancy to complete turnkey solutions that start from design and concept and go all the way to interior decoration and landscaping. Our notable achievements:</p>
+                        <ul>
+                            <li>Residential projects in and around Delhi including planned residential townships. </li>
+                            <li>Educational institutions and campuses in North India. </li>
+                            <li>Star Hotels in Delhi, complete with landscaping, gardens, swimming pools and interiors.</li>
+                            <li>Trust is precious and like glass, once you break it, it can never be re-joined. We cherish trust more than diamonds.</li>
+                            <li>Besides a number of new projects in and around Delhi we are in the process of finalizing joint ventures in mega construction projects across Northern India that will give a quantum leap to our business operations and put us in the league of construction giants of India.</li>
+                      
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div> -->
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script>
-    $(window).load(function () {
-        $('.modal1_1').fadeOut(3000);
-    });
-</script> -->
+</section>
 
        
         <a href="javascript:void(0)" class="cd-top text-replace js-cd-top">Top</a> 
@@ -492,8 +623,7 @@ filter: invert(1);
                 </div>
             </div>
         </footer>
-
-        <!-- <div class="PopContntBx" data-poptb="1">
+        <div class="PopContntBx" data-poptb="1">
             <div class="PopTxtBx"> <span class="PopBxCls"></span>
                 <div class="PopCntntBx">
                     <div class="PopImgBx"> <img src="/asset/images/dremSecimg.jpg" alt="Luxury Apartments in Gurgaon"> </div>
@@ -559,8 +689,8 @@ filter: invert(1);
                     </div>
                 </div>
             </div>
-        </div> -->
-        <!-- <div class="pop_up_vdo">
+        </div>
+        <div class="pop_up_vdo">
             <div class="vdo_onply vdo_onply_ad">
                 <div class="cls_vdo"> <span class="PopBxClsVde"></span> </div>
                 <iframe id="iframe" src="https://www.youtube.com/embed/hHBZ8kIrN6Y?controls=0&amp;rel=0" data-autoplay-src="https://www.youtube.com/embed/hHBZ8kIrN6Y?controls=0&amp;rel=0&amp;autoplay=1" data-autoplay-src1="https://www.youtube.com/embed/hHBZ8kIrN6Y?controls=0&amp;rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="iframecls"></iframe>
@@ -600,9 +730,9 @@ filter: invert(1);
 
 
 
-         </script> -->
+         </script>
 
-           <!-- <script>
+           <script>
              $(document).ready(function () {
                  $('.AmtFacSlider').owlCarousel({
                      items: 6,
@@ -809,18 +939,18 @@ filter: invert(1);
                  }
              });
          });
-         </script> -->
+         </script>
 
-         <!-- <script>
+         <script>
             $('.thumbnail').magnificPopup({
               type: 'image',
               gallery:{
                 enabled: true
               },
             });
-         </script>  -->
+         </script> 
      
-        <!-- <script>
+        <script>
             //.1 Numbers only
             function numeralsOnly(evt) {
                 evt = (evt) ? evt : event;
@@ -988,9 +1118,9 @@ filter: invert(1);
                     return true;
                 }
             }
-        </script> -->
+        </script>
         <!--Start of Tawk.to Script-->
-<!-- <script>
+<script>
     var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     (function () {
         var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
@@ -1000,18 +1130,15 @@ filter: invert(1);
         s1.setAttribute('crossorigin', '*');
         s0.parentNode.insertBefore(s1, s0);
     })();
-</script> -->
+</script>
 <!--End of Tawk.to Script-->
-    <!-- </div> -->
+    </div>
     
 
-<!-- <script type="text/javascript">
+<script type="text/javascript">
 //<![CDATA[
 Sys.Application.add_init(function() {
     $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":null,"displayAfter":500,"dynamicLayout":true}, null, null, $get("UpdateProgress2"));
-});
-Sys.Application.add_init(function() {
-    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"ContentPlaceHolder1_UpdatePanelQuickinquiry","displayAfter":500,"dynamicLayout":true}, null, null, $get("ContentPlaceHolder1_UpdateProgressQuickinquiry"));
 });
 Sys.Application.add_init(function() {
     $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"UpdatePanel1Newsletter","displayAfter":500,"dynamicLayout":true}, null, null, $get("UpdateProgress3"));
@@ -1019,8 +1146,8 @@ Sys.Application.add_init(function() {
 Sys.Application.add_init(function() {
     $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"UpdatePanelQuickinquiry","displayAfter":500,"dynamicLayout":true}, null, null, $get("UpdateProgressQuickinquiry"));
 });
-//]]> -->
-<!-- </script> -->
+//]]>
+</script>
 </form>
 </body>
 </html>

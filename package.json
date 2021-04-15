@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.html",
   "dependencies": {
+    "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.0-beta3",
+    "jquery": "^3.6.0",
     "lite-server": "^2.6.1"
   },
   "devDependencies": {},
@@ -13,6 +15,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
-  "author": "",
+  "author": "Arihant Jain",
   "license": "ISC"
 }
